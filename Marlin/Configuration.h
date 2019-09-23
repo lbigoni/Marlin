@@ -789,12 +789,12 @@
  * value set here, it may happen instantaneously.
  */
 #if DISABLED(JUNCTION_DEVIATION)
-  #define DEFAULT_XJERK 4.0
-  #define DEFAULT_YJERK 7.0
-  #define DEFAULT_ZJERK 0.2
+  #define DEFAULT_XJERK 15.0
+  #define DEFAULT_YJERK 15.0
+  #define DEFAULT_ZJERK  0.4
 #endif
 
-#define DEFAULT_EJERK    2.5  // May be used by Linear Advance
+#define DEFAULT_EJERK 5.0  // May be used by Linear Advance
 
 /**
  * S-Curve Acceleration
