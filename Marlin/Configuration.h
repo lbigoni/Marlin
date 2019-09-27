@@ -493,14 +493,14 @@
   //#define DEFAULT_Kd 440
 
   // T0 - TEVO Tarantula Custom PID Settings
-  #define DEFAULT_Kp 28.27
-  #define DEFAULT_Ki 2.33
-  #define DEFAULT_Kd 85.68
+  #define DEFAULT_Kp 30.75
+  #define DEFAULT_Ki 3.21
+  #define DEFAULT_Kd 73.72
 
   // T1 - TEVO Tarantula Custom PID Settings E0
-  //#define DEFAULT_Kp 28.05
-  //#define DEFAULT_Ki 2.56
-  //#define DEFAULT_Kd 76.98
+  //#define DEFAULT_Kp 30.39
+  //#define DEFAULT_Ki 3.02
+  //#define DEFAULT_Kd 76.56
 
 
 #endif // PIDTEMP
