@@ -950,11 +950,13 @@
 #define Y_PROBE_OFFSET_FROM_EXTRUDER SENSOR_BEHIND - SENSOR_FRONT  // Y offset: -front +behind [the nozzle]
 #define Z_PROBE_OFFSET_FROM_EXTRUDER 0                             // Z offset: -below +above  [the nozzle]
 
+#define NOZZLE_TO_PROBE_OFFSET { X_PROBE_OFFSET_FROM_EXTRUDER, Y_PROBE_OFFSET_FROM_EXTRUDER, Z_PROBE_OFFSET_FROM_EXTRUDER }
 
 /**
  * Margin around perimiter of bed for probing (will not probe outside this margin)
  */
 #define BED_MARGIN         10
+
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE BED_MARGIN
 
