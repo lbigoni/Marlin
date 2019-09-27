@@ -946,11 +946,11 @@
 #define SENSOR_BEHIND      87
 
 
-#define X_PROBE_OFFSET_FROM_EXTRUDER SENSOR_RIGHT - SENSOR_LEFT    // X offset: -left  +right  [of the nozzle]
-#define Y_PROBE_OFFSET_FROM_EXTRUDER SENSOR_BEHIND - SENSOR_FRONT  // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER 0                             // Z offset: -below +above  [the nozzle]
+#define X_PROBE_OFFSET SENSOR_RIGHT - SENSOR_LEFT    // X offset: -left  +right  [of the nozzle]
+#define Y_PROBE_OFFSET SENSOR_BEHIND - SENSOR_FRONT  // Y offset: -front +behind [the nozzle]
+#define Z_PROBE_OFFSET 0                             // Z offset: -below +above  [the nozzle]
 
-#define NOZZLE_TO_PROBE_OFFSET { X_PROBE_OFFSET_FROM_EXTRUDER, Y_PROBE_OFFSET_FROM_EXTRUDER, Z_PROBE_OFFSET_FROM_EXTRUDER }
+#define NOZZLE_TO_PROBE_OFFSET { X_PROBE_OFFSET, Y_PROBE_OFFSET, Z_PROBE_OFFSET }
 
 /**
  * Margin around perimiter of bed for probing (will not probe outside this margin)
