@@ -34,9 +34,7 @@ namespace Language_de {
 
   constexpr uint8_t    CHARSIZE                            = 2;
   PROGMEM Language_Str LANGUAGE                            = _UxGT("Deutsche");
-
   PROGMEM Language_Str WELCOME_MSG                         = MACHINE_NAME _UxGT(" bereit");
-
   PROGMEM Language_Str MSG_YES                             = _UxGT("JA");
   PROGMEM Language_Str MSG_NO                              = _UxGT("NEIN");
   PROGMEM Language_Str MSG_BACK                            = _UxGT("Zurück");
@@ -646,6 +644,7 @@ namespace Language_de {
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEATING       = _UxGT(MSG_2_LINE("Düse heizt auf", "bitte warten..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_UNLOAD        = _UxGT(MSG_3_LINE("Warte auf", "Herausnahme", "des Filaments..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_LOAD          = _UxGT(MSG_3_LINE("Warte auf", "Laden des", "Filaments..."));
+
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_PURGE         = _UxGT(MSG_3_LINE("Warte auf", "Entladen des", "Filaments..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_CONT_PURGE    = _UxGT(MSG_3_LINE("Klicke um", "die Fila-Entladung", "zu beenden"));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_RESUME        = _UxGT(MSG_3_LINE("Warte auf", "Fortsetzen des", "Drucks..."));
